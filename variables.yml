@@ -1,0 +1,9 @@
+- name: Demo on using variables
+  hosts: all
+  vars:
+   URL: play.google.com
+  tasks:
+   - name: print the URL
+     debug:
+       msg: url variable value is {{URL}}
+        
