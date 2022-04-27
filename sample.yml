@@ -12,3 +12,7 @@
     - name: print hello from play1 ### name of the task
       debug:
         msg: Hello from task2 of Play1
+
+    - name: print hello from play1 ### name of the task
+      debug:
+        msg: Hi from task2 of Play1
