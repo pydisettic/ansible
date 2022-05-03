@@ -6,4 +6,19 @@
    - name: print the URL
      debug:
        msg: url variable value is {{URL}}
-        
+
+    -name: print url from task
+     debug:
+       msg: URL varaible value is {{URL}}
+     vars:
+     URL:task.google.com
+
+     - name: print URL from CLI
+       debug:
+         msg:URL_FROM_CLI ={{URL_FROM_CLI}} 
+         
+      -name: printing the file variable
+       debug:
+        msg: "{{FILE_URL}}"
+
+      -name: print thr file varablr and
