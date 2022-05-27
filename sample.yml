@@ -16,3 +16,10 @@
     - name: print hello from play1 ### name of the task
       debug:
         msg: Hi from task2 of Play1
+          
+    - name: play2 ## name of the p
+      hosts: all
+      tasks:
+        - name: print hello from play2 ## name of p
+          debug:
+            msg: hello from task3 of play2     
