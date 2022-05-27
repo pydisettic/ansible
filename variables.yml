@@ -10,5 +10,4 @@
    - name: print url from task
      debug:
        msg: URL varaible value is {{URL}}
-     vars:
-     URL:task.google.com
+    
