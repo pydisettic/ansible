@@ -8,7 +8,7 @@
     - name: URL
       prompt: "enter the URL"
       private: no
-   tasks:
+  tasks:
      - name: printing the prompt name
        debug:
          msg: "{{URL}}"   
