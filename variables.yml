@@ -12,13 +12,3 @@
        msg: URL varaible value is {{URL}}
      vars:
      URL:task.google.com
-
-   - name: print URL from CLI
-     debug:
-       msg: URL_FROM_CLI ={{URL_FROM_CLI}} 
-         
-   -name: printing the file variable
-    debug:
-      msg: "{{FILE_URL}}"
-
-      -name: print thr file varablr and
