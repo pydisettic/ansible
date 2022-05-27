@@ -7,7 +7,7 @@
      debug:
        msg: url variable value is {{URL}}
 
-    -name: print url from task
+   - name: print url from task
      debug:
        msg: URL varaible value is {{URL}}
      vars:
