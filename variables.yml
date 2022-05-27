@@ -10,7 +10,7 @@
    - name: print url from task
      debug:
        msg: URL varaible value is {{URL}}
-      vars: task.google.com
+    vars: task.google.com
 
     - name: print URL from CLI
       debug:
