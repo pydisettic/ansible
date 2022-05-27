@@ -17,9 +17,9 @@
       debug:
         msg: Hi from task2 of Play1
           
-    - name: play2 ## name of the p
+    - name: play2 ### name of the play
       hosts: all
       tasks:
-        - name: print hello from play2 ## name of p
+        - name: print hello from play2 ### name of play
           debug:
             msg: hello from task3 of play2     
