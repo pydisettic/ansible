@@ -16,5 +16,5 @@
        msg: URL_FROM_CLI = {{URL_FROM_CLI}}
 
    - name: printing the file variable
-      debug:
-        msg: "{{FILE_URL}}"  
+     debug:
+       msg: "{{FILE_URL}}"  
