@@ -2,6 +2,17 @@
   hosts: all
   vars:
    URL: play.google.com
+  vars_files:
+    - proja-vars.yml
+  vars_prompt:
+    - name: URL
+      prompt: "enter the URL"
+      private: no
+   tasks:
+     - name: printing the prompt name
+       debug:
+         msg: "{{NAME}}"   
+            
   tasks:
    - name: print the URL
      debug:
