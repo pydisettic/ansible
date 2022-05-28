@@ -9,7 +9,7 @@
       debug:
         msg: "{{out.stdout}}" 
 
-    - name: Decalre variable
+    - name: Declare variable
       set_facts:
          status: "{{out.rc}}" 
 
