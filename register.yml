@@ -5,6 +5,6 @@
       shell: uptime
       register: out
 
-     - name: printing uptime variable
-       debug:
-         msg: "{{out.stdout}}" 
+    - name: printing uptime variable
+      debug:
+        msg: "{{out.stdout}}" 
