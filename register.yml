@@ -15,4 +15,4 @@
 
     - name: printing uptime status code
       debug:
-       msg: "status of uptime: {{status}}"  
+       msg: "status of uptime : {{status}}"
