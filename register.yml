@@ -8,3 +8,11 @@
     - name: printing uptime variable
       debug:
         msg: "{{out.stdout}}" 
+
+    - name: Decalre variable
+      set_facts:
+         status: "{{out.rc}}" 
+
+    - name: printing upstatus code
+      debug:
+       msg: "status of uptime: {{status}}"  
