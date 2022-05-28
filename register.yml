@@ -13,6 +13,6 @@
       set_facts:
          status: "{{out.rc}}" 
 
-    - name: printing upstatus code
+    - name: printing uptime status code
       debug:
        msg: "status of uptime: {{status}}"  
